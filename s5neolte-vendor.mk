@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/s5neolte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_blob \
     vendor/samsung/s5neolte/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
     vendor/samsung/s5neolte/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
-    vendor/samsung/s5neolte/proprietary/lib/hw/camera.universal7580.so:system/lib/hw/camera.universal7580.so \
+    vendor/samsung/s5neolte/proprietary/lib/hw/camera.vendor.universal7580.so:system/lib/hw/camera.vendor.universal7580.so \
     vendor/samsung/s5neolte/proprietary/lib/hw/nfc_nci.universal7580.so:system/lib/hw/nfc_nci.universal7580.so \
     vendor/samsung/s5neolte/proprietary/lib/hw/sensors.universal7580.so:system/lib/hw/sensors.universal7580.so \
     vendor/samsung/s5neolte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
